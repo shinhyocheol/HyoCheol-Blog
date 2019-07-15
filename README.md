@@ -21,6 +21,5 @@
 
    - Spring Web Project(콜센터 상담기록 관리 웹)
    
-      * 소스 링크 : https://github.com/shinhyocheol/dev_shin_v1.github.io
-      * 서비스 링크 : http://ec2-18-218-59-181.us-east-2.compute.amazonaws.com:8080/dev_shin_v1/
-      * 프로젝트 소개 : https://github.com/shinhyocheol/dev_shin_v1.github.io
+      * 프로젝트 소개 : https://shinhyocheol.github.io/HyoCheol-Blog/portfolio.html
+
