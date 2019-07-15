@@ -1,0 +1,291 @@
+<!doctype html>
+<html>
+  <head>
+    <title>웹 프로젝트 소개</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+
+      body{
+        background-color: #ebebeb;
+      }
+
+      .ui-body{
+        width: 60%;
+        height: auto;
+        background-color: #ffffff;
+        margin: auto;
+        margin-top: 40px;
+      }
+
+      .ui-body .header{
+        width: 95%;
+        height: 50px;
+        color: #8a7d7db5;
+        line-height: 50px;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        margin: auto;
+        border-bottom: 2px solid #3dceed;
+        margin-bottom: 15px;
+      }
+
+      .ui-body .content{
+        width: 90%;
+        height: 400px;
+        margin: auto;
+        clear: both;
+      }
+
+
+      .content .left{
+        float: left;
+        width: calc(30% - 1px);
+        height: 100%;
+        text-align: center;
+        font-size: 14px;
+        color: #8a7d7db5;
+        font-weight: bold;
+        border-right: 1px solid #8a7d7db5;
+        border-top: 1px solid #8a7d7db5;
+      }
+      .content .right{
+        float: left;
+        width: calc(70% - 1px);
+        height: 100%;
+        text-align: center;
+        font-size: 14px;
+        color: #8a7d7db5;
+        font-weight: bold;
+        border-top: 1px solid #8a7d7db5;
+
+      }
+
+      .left .category{
+        width: 100%;
+        height: 130px;
+        float: left;
+
+      }
+
+      .right .category{
+        width: 100%;
+        height: 130px;
+        float: left;
+        display: table-cell;
+        vertical-align: middle;
+      }
+      .category p{
+        padding: 10px;
+        padding-left: 25px;
+        text-align: left;
+      }
+      .category img{
+          margin: auto;
+          height: 60px;
+          margin-right: 20px;
+          margin-top: 5px;
+      }
+      .category video{
+        height:200px;
+        width:400px;
+        padding-left: 25px;
+        float: left;
+      }
+      .clear-content{
+        clear: both;
+        height: 30px;
+      }
+
+      .ui-left{
+        width: 200px;
+        height: auto;
+        background-color: #ffffff;
+        position: fixed;
+        margin-left: 20px;
+
+
+      }
+
+      .ui-left .box-header{
+        clear: both;
+        width: 80%;
+        height: 50px;
+        margin: auto;
+        font-size: 15px;
+        line-height: 50px;
+        border-bottom: 2px solid #3dceed;
+        color: #8a7d7db5;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+
+      .ui-left .box-list{
+        clear: both;
+        width: 80%;
+        height: 40px;
+        margin: auto;
+        font-size: 15px;
+        line-height: 40px;
+        background-color: #ebebeb;
+        margin-bottom: 10px;
+        color: #8a7d7db5;
+        text-align: center;
+        cursor: pointer;
+      }
+
+
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <div class="ui-left">
+      <div class="box-header">메뉴</div>
+
+      <div class="box-list" type="dev">개발자 소개</div>
+      <div class="box-list" type="source">개발 소스</div>
+      <div class="box-list" type="service">서비스 링크</div>
+
+
+    </div>
+
+    <div class="ui-body">
+
+      <div class="header">Hyo Cheol's Call-center Management Web</div>
+
+      <div class="content">
+        <div class="left">
+
+            <div class="category">
+              <p>Introduce</p>
+            </div>
+
+        </div>
+
+        <div class="right">
+
+          <div class="category">
+              <p>기업에서 사용될꺼라고 생각되는 기본적인 기능들을 담고, <br/>콜센터에서 기록되는 상담기록을 청취하고 관리하는 웹 어플리케이션</p>
+
+              <p>*사용영상*</p>
+              <video  src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\test.mp4" controls></video>
+          </div>
+          </div>
+        </div>
+        <div class="content" style="height:250px;">
+          <div class="left">
+
+            <div class="category">
+              <p>purpose</p>
+            </div>
+
+          </div>
+
+          <div class="right">
+
+            <div class="category">
+                <p>
+                  프로젝트를 시작하기로 마음먹고, 어떤 프로젝트를 만들까 </br>
+                  많은 고민을 하였습니다. 고민한 결과, 콜센터 상담관리 웹을 </br>
+                  떠올리게 되었습니다. 웹 개발자에게 가장 기본이 되는 게시판을 </br>
+                  토대로 그동안 제가 경험하고, 배운기술들을 적용하여 제작하기</br>
+                  좋은 소재라고 판단되어 개발하게 되었습니다.</br>
+                  <br/>
+
+                  1. 개발소스는 기본에 충실하고 역할분담을 명확히 한다.</br>
+                  2. 개발소스는 타 개발자가 읽을때 쉽게 이해할 수 있어야 한다.</br>
+                  3. 웹은 사용자가 사용하기에 최대한 어려움이 없어야 한다.</br>
+
+                </br>위 세가지를 중점으로 웹을 개발하였습니다.<br/>
+                </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="content" style="height:700px;">
+          <div class="left">
+
+            <div class="category">
+              <p>Technologies</p>
+            </div>
+
+          </div>
+
+          <div class="right">
+
+            <div class="category">
+                <p>Language</p>
+                <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-java.png" >
+                <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-js.png" >
+                <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-html.png" >
+                <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-css.png" >
+            </div>
+
+            <div class="category">
+              <p>Framework / Library</p>
+              <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-spring.png" >
+              <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-jquery.png" >
+              <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-datatables.png" >
+              <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-d3.png" >
+            </div>
+
+            <div class="category">
+              <p>Server</p>
+              <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-mariadb.png" >
+              <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-mysql.png" >
+              <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-tomcat.png" >
+            </div>
+
+            <div class="category">
+              <p>Environment</p>
+              <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-aws.png" >
+              <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-linux.png" >
+              <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-windows.png" >
+            </div>
+
+            <div class="category">
+              <p>ETC</p>
+              <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-eclipse.png" >
+              <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-github.png" >
+              <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-bitbucket.png" >
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="clear-content"></div>
+
+      </div>
+
+      <script type="text/javascript">
+
+            $('.box-list').on('click', function(){
+
+              var type = $(this).attr('type');
+
+              switch (type) {
+                case 'dev':
+                  window.open('https://shinhyocheol.github.io/HyoCheol-Blog/', '_blank');
+                  break;
+
+                case 'source' :
+                  window.open('https://github.com/shinhyocheol/dev_shin_v1.github.io/ ', '_blank');
+                  break;
+
+                case 'service' :
+                  window.open('http://ec2-18-218-59-181.us-east-2.compute.amazonaws.com:8080/dev_shin_v1/ ', '_blank');
+                  break;
+
+              }
+
+            })
+
+
+      </script>
+  </body>
+
+</html>
