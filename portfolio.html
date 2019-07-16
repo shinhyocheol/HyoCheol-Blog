@@ -7,6 +7,7 @@
 
       body{
         background-color: #ebebeb;
+        margin: 0;
       }
 
       .ui-body{
@@ -103,7 +104,7 @@
         background-color: #ffffff;
         position: fixed;
         margin-left: 20px;
-
+        margin-top: 40px;
 
       }
 
@@ -134,13 +135,52 @@
         cursor: pointer;
       }
 
+      .ui-left .box-list:hover{
+        background-color: #c7c5c5;
+      }
 
+      .ui-topbar {
+        position: fixed;
+        width: 100%;
+        height: 40px;
+        opacity: 0.5;
+        background-color: black;
+
+      }
+
+      .ui-topbar .top-list{
+        float: right;
+        width: 100px;
+        height: 40px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+      }
+      .ui-topbar .top-list:hover{
+        opacity: 0.9;
+        background-color: #8a7d7db5;
+      }
     </style>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js" integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
   </head>
   <body>
+
+    <div class="ui-topbar">
+      <div class="top-list" type="etc">ETC</div>
+      <div class="top-list" type="technology">기술</div>
+      <div class="top-list" type="purpose">목적</div>
+      <div class="top-list" type="introduce">소개</div>
+    </div>
+
+    <div class="clear-content"></div>
 
     <div class="ui-left">
       <div class="box-header">메뉴</div>
@@ -156,11 +196,11 @@
 
       <div class="header">Hyo Cheol's Call-center Management Web</div>
 
-      <div class="content">
+      <div class="content" id="introduce">
         <div class="left">
 
             <div class="category">
-              <p>Introduce</p>
+              <p>소개</p>
             </div>
 
         </div>
@@ -175,11 +215,11 @@
           </div>
           </div>
         </div>
-        <div class="content" style="height:250px;">
+        <div class="content" style="height:250px;" id="purpose">
           <div class="left">
 
             <div class="category">
-              <p>purpose</p>
+              <p>목적</p>
             </div>
 
           </div>
@@ -205,11 +245,11 @@
             </div>
           </div>
         </div>
-        <div class="content" style="height:700px;">
+        <div class="content" style="height:700px;" id="technology">
           <div class="left">
 
             <div class="category">
-              <p>Technologies</p>
+              <p>기술</p>
             </div>
 
           </div>
@@ -217,7 +257,7 @@
           <div class="right">
 
             <div class="category">
-                <p>Language</p>
+                <p>- 언어</p>
                 <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-java.png" >
                 <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-js.png" >
                 <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-html.png" >
@@ -225,7 +265,7 @@
             </div>
 
             <div class="category">
-              <p>Framework / Library</p>
+              <p>- 프레임워크 / 라이브러리</p>
               <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-spring.png" >
               <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-jquery.png" >
               <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-datatables.png" >
@@ -233,21 +273,21 @@
             </div>
 
             <div class="category">
-              <p>Server</p>
+              <p>- 서버</p>
               <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-mariadb.png" >
               <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-mysql.png" >
               <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-tomcat.png" >
             </div>
 
             <div class="category">
-              <p>Environment</p>
+              <p>- 환경</p>
               <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-aws.png" >
               <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-linux.png" >
               <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-windows.png" >
             </div>
 
             <div class="category">
-              <p>ETC</p>
+              <p>- 기타</p>
               <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-eclipse.png" >
               <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-github.png" >
               <img src="https://shinhyocheol.github.io/HyoCheol-Blog\portfolio_reference_file\icon-bitbucket.png" >
@@ -281,6 +321,17 @@
                   break;
 
               }
+
+            })
+
+
+            $('.top-list').on('click', function() {
+              var type = $(this).attr('type');
+              var scY = $('#'+type)[0].offsetTop;
+
+              $('html, body').animate({
+                  scrollTop: (scY-40)
+               }, 500);
 
             })
 
