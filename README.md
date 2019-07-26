@@ -1,5 +1,13 @@
 # HyoCheol's Info
 
+## 인적사항
+   
+   - 이름 : 신효철
+   - 나이 : 26(1994년 3월 24일 출생)
+   - 지역 : 서울, 경기
+   - 연락처 : 010-7730-9975
+   - 이메일 : zzzskssk1@naver.com
+
 ## 출생
 
    - 1994년 3월 24일 서울 출생
@@ -22,4 +30,5 @@
    - Spring Web Project(콜센터 상담기록 관리 웹)
    
       * 프로젝트 소개 : https://shinhyocheol.github.io/HyoCheol-Blog/portfolio.html
+
 
