@@ -25,10 +25,8 @@
    - 2015년 5월 ~ 2019년 6월 (주)아이티레이 기술연구소 근무
 
    
-## 프로젝트 사항
+## 포트폴리오
 
-   - Spring Web Project(콜센터 상담기록 관리 웹)
-   
-      * 프로젝트 소개 : https://shinhyocheol.github.io/HyoCheol-Blog/portfolio.html
+      * https://shinhyocheol.github.io/HyoCheol-Blog/portfolio.html
 
 
