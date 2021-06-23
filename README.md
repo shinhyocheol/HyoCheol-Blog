@@ -25,8 +25,3 @@
    - 2018년 5월 ~ 2019년 6월 (주)아이티레이 기술연구소 근무
    - 2019년 8월 (주)익스모바일 근무중
    
-## 포트폴리오
-
-      * https://shinhyocheol.github.io/HyoCheol-Blog/portfolio.html
-
-
